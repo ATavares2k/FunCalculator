@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'bgGray': '#ebebeb',
+        'buttonColor': '#efedee',
+        'resultColor': '#1b2a36',
+        'countsBeingProcessedColor': '#b7b8ba',
+        'equalColor': '#ed802e',
+        'numbersColor': '#a7a7a7'
+      },
+      fontFamily: {
+        fontUsed: ['montserrat']
+      }
+    },
   },
   plugins: [],
 }
