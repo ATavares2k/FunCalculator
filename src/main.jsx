@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./routes/root";
-import Ouja from "./routes/Ouja";
+import Start from "./routes/start";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/ouji",
-    element: <Ouja />,
+    path: "/start",
+    element: <Start />,
   },
 ]);
 
